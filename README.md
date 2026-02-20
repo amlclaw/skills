@@ -1,6 +1,6 @@
 # amlclaw Skills
 
-OpenClaw skills for AML compliance - Address screening, transaction monitoring, and reporting.
+OpenClaw skills for AML compliance - Address screening, transaction monitoring, rule-based detection, and reporting.
 
 ## 🎯 Available Skills
 
@@ -9,12 +9,22 @@ OpenClaw skills for AML compliance - Address screening, transaction monitoring, 
 - **Usage**: `aml-screen-address <chain> <address>`
 - **Features**: Real-time KYA (Know Your Address) integration
 
-### 2. AML Transaction Monitoring
+### 2. AML Rule Engine (NEW!)
+- **Description**: Rule-engine driven AML compliance detection with automated regulation extraction
+- **Usage**: `aml check <chain> <address>` or interactive mode
+- **Features**: 
+  - Automated rule extraction from SG/HK/Dubai regulations (47+ rules)
+  - Intelligent violation detection and risk grading
+  - End-to-end pipeline: address → API → rules → report
+  - User rule management and customization
+  - Integration with TrustIn Investigate API
+
+### 3. AML Transaction Monitoring
 - **Description**: Monitor transactions for suspicious activity
 - **Usage**: `aml-monitor-transactions <chain> [--threshold]`
 - **Features**: KYT (Know Your Transaction) with customizable rules
 
-### 3. AML Compliance Reporting
+### 4. AML Compliance Reporting
 - **Description**: Generate regulatory compliance reports
 - **Usage**: `aml-generate-report <regulator> [--period]`
 - **Features**: MAS, SFC, VARA templates

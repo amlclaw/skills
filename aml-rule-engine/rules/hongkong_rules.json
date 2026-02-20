@@ -1,0 +1,125 @@
+[
+  {
+    "jurisdiction": "Hong Kong",
+    "category": "Capital Requirements",
+    "rule_type": "CAPITAL_REQUIREMENT",
+    "description": "Capital Requirement: HK$5,000,000",
+    "threshold": 5000000.0,
+    "currency": "HKD",
+    "source": "HK-001-AMLO-Cap-615.md",
+    "user_customizable": false,
+    "enabled": true,
+    "rule_id": "HK-001"
+  },
+  {
+    "jurisdiction": "Hong Kong",
+    "category": "Personnel Requirements",
+    "rule_type": "FIT_AND_PROPER_TEST",
+    "description": "Must pass SFC Fit and Proper Test for officers",
+    "action": "Evaluate financial status, education, experience, character, reputation",
+    "source": "HK-001-AMLO-Cap-615.md#Fit_and_Proper",
+    "user_customizable": false,
+    "enabled": true,
+    "rule_id": "HK-002"
+  },
+  {
+    "jurisdiction": "Hong Kong",
+    "category": "Personnel Requirements",
+    "rule_type": "RESIDENCY_REQUIREMENT",
+    "description": "At least one responsible officer must ordinarily reside in Hong Kong",
+    "action": "Ensure resident officer meets qualifications",
+    "source": "HK-001-AMLO-Cap-615.md#Residency",
+    "user_customizable": false,
+    "enabled": true,
+    "rule_id": "HK-003"
+  },
+  {
+    "jurisdiction": "Hong Kong",
+    "category": "Licensing Requirements",
+    "rule_type": "VASP_LICENSE_REQUIRED",
+    "description": "VASP license required for virtual asset service providers",
+    "action": "Apply for SFC license, meet all requirements",
+    "source": "HK-001-AMLO-Cap-615.md#Licensing",
+    "user_customizable": false,
+    "enabled": true,
+    "rule_id": "HK-004"
+  },
+  {
+    "jurisdiction": "Hong Kong",
+    "category": "Compliance Framework",
+    "rule_type": "AML_CFT_PROGRAM_REQUIRED",
+    "description": "Must establish AML/CFT policies, procedures and controls",
+    "action": "Design and implement comprehensive AML/CFT program",
+    "source": "HK-001-AMLO-Cap-615.md#Compliance",
+    "user_customizable": true,
+    "enabled": true,
+    "rule_id": "HK-005"
+  },
+  {
+    "jurisdiction": "Hong Kong",
+    "category": "Customer Due Diligence",
+    "rule_type": "CDD_REQUIRED",
+    "description": "Customer Due Diligence must be performed",
+    "action": "Establish CDD procedures for customer verification",
+    "source": "HK-001-AMLO-Cap-615.md#CDD",
+    "user_customizable": true,
+    "enabled": true,
+    "rule_id": "HK-006"
+  },
+  {
+    "jurisdiction": "Hong Kong",
+    "category": "Compliance Framework",
+    "rule_type": "AML_CFT_PROGRAM_REQUIRED",
+    "description": "Must establish AML/CFT policies, procedures and controls",
+    "action": "Design and implement comprehensive AML/CFT program",
+    "source": "HK-004-SFC-AML-CFT-Guideline.md#Compliance",
+    "user_customizable": true,
+    "enabled": true,
+    "rule_id": "HK-007"
+  },
+  {
+    "jurisdiction": "Hong Kong",
+    "category": "Capital Requirements",
+    "rule_type": "LIQUID_CAPITAL_REQUIREMENT",
+    "description": "Liquid Capital Requirement: HK$3,000,000",
+    "threshold": 3000000.0,
+    "currency": "HKD",
+    "source": "HK-006-SFC-VATP-Guidelines-2023.md",
+    "user_customizable": false,
+    "enabled": true,
+    "rule_id": "HK-008"
+  },
+  {
+    "jurisdiction": "Hong Kong",
+    "category": "Compliance Framework",
+    "rule_type": "AML_CFT_PROGRAM_REQUIRED",
+    "description": "Must establish AML/CFT policies, procedures and controls",
+    "action": "Design and implement comprehensive AML/CFT program",
+    "source": "HK-007-HKMA-Stablecoin-AML-Guideline-2025.md#Compliance",
+    "user_customizable": true,
+    "enabled": true,
+    "rule_id": "HK-009"
+  },
+  {
+    "jurisdiction": "Hong Kong",
+    "category": "Risk Management",
+    "rule_type": "RISK_ASSESSMENT_REQUIRED",
+    "description": "Must conduct ML/TF risk assessment",
+    "action": "Assess risks based on customers, products, services, jurisdictions",
+    "source": "HK-007-HKMA-Stablecoin-AML-Guideline-2025.md#Risk_Assessment",
+    "user_customizable": true,
+    "enabled": true,
+    "rule_id": "HK-010"
+  },
+  {
+    "jurisdiction": "Hong Kong",
+    "category": "Customer Due Diligence",
+    "rule_type": "CDD_REQUIRED",
+    "description": "Customer Due Diligence must be performed",
+    "action": "Establish CDD procedures for customer verification",
+    "source": "HK-007-HKMA-Stablecoin-AML-Guideline-2025.md#CDD",
+    "user_customizable": true,
+    "enabled": true,
+    "rule_id": "HK-011"
+  }
+]
