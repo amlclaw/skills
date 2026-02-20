@@ -1,0 +1,22 @@
+[flake8]
+max-line-length = 127
+max-complexity = 10
+ignore = 
+    E203,  # whitespace before ':'
+    W503,  # line break before binary operator
+    E501,  # line too long (handled by max-line-length)
+exclude = 
+    .git,
+    __pycache__,
+    .venv,
+    venv,
+    env,
+    .eggs,
+    *.egg,
+    build,
+    dist,
+    .pytest_cache,
+    .coverage,
+per-file-ignores = 
+    __init__.py:F401
+    tests/*:S101  # assert statements in tests are ok
