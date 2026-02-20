@@ -1,0 +1,83 @@
+site_name: AML Address Screening Skill
+site_description: OpenClaw skill for blockchain address AML risk assessment using TrustIn KYA API
+site_url: https://amlclaw.github.io/skills/aml-address-screening/
+repo_url: https://github.com/amlclaw/skills/tree/main/aml-address-screening
+repo_name: amlclaw/skills
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Quick Start: getting-started/quick-start.md
+    - Configuration: getting-started/configuration.md
+  - User Guide:
+    - Address Screening: guide/address-screening.md
+    - Risk Assessment: guide/risk-assessment.md
+    - TrustIn API: guide/trustin-api.md
+    - Command Line: guide/command-line.md
+  - API Reference:
+    - Screening Module: api/screening.md
+    - TrustIn API Module: api/trustin-api.md
+  - Development:
+    - Contributing: development/contributing.md
+    - Testing: development/testing.md
+    - Code Style: development/code-style.md
+  - Examples: examples/index.md
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: dark
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [.]
+          options:
+            docstring_style: google
+            show_source: true
+            show_root_heading: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/amlclaw
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/clawd
+
+copyright: |
+  Copyright &copy; 2026 amlclaw - All rights reserved.
+  <a href="https://github.com/amlclaw/skills/blob/main/LICENSE">MIT License</a>

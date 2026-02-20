@@ -1,0 +1,18 @@
+# amlclaw skills repository - root level dependencies
+# This file aggregates dependencies from all skills for CI/CD testing
+
+# Common dependencies across all skills
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Development and testing dependencies
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0
+
+# Documentation
+mkdocs>=1.5.0
+mkdocs-material>=9.0.0
+mkdocstrings[python]>=0.24.0
